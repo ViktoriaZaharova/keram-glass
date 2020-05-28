@@ -339,9 +339,6 @@ header {
     .list-menu li a:hover {
       color: #f70000; }
 
-main {
-  padding: 27px 32px 0; }
-
 .main-slider {
   width: 100%;
   position: relative;
