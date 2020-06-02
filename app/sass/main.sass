@@ -325,8 +325,9 @@ header
   flex-direction: column
   align-items: flex-start
   margin: 147px 0 35px
-  background: url("../img/overlay.png") no-repeat center
-    size: cover
+  //background: url("../img/overlay.png") no-repeat center
+  //  size: cover
+  background: linear-gradient(to bottom, rgba(142,79,78,1) 0%,rgba(255,255,255,0) 100%)
   .text
     margin: 33px 0 60px
     line-height: 1.44
@@ -436,7 +437,7 @@ header
     line-height: 1.65
     strong
       font-weight: bold
-      color: #f70000
+      color: #232323
       margin: 0 0 30px
 
 //advantages
@@ -459,6 +460,8 @@ header
     display: flex
     align-items: center
     justify-content: center
+    img
+      filter: grayscale(100%)
 
 //.reviews
 .reviews
@@ -473,7 +476,7 @@ header
     align-items: center
     justify-content: space-between
     h4
-      color: #f70000
+      color: #232323
       font-size: 17px
       font-weight: bold
 
@@ -485,7 +488,7 @@ header
 //section-contacts
 .section-contacts
   position: relative
-  padding: 186px 0 160px
+  padding: 70px 0
   .container
     position: initial
     z-index: 0
@@ -578,7 +581,7 @@ header
   font-size: 12px
   .icon
     margin: 0 10px 0 0
-    width: 23px
+    width: 16px
     height: 27px
 
 //footer
@@ -601,7 +604,7 @@ footer
       margin: 0
 
 .copyright
-  color: #f70000
+  color: #232323
   font-size: 12px
 
 .footer-menu
@@ -730,32 +733,6 @@ footer
     font-size: 20px
     letter-spacing: 0.22px
 
-.tabs
-  display: flex
-  align-items: stretch
-  flex-wrap: wrap
-  li
-    margin: 0 33px 0 0
-    &:last-child
-      margin: 0
-    a
-      padding: 0 0 25px
-      color: #232323
-      font-size: 13px
-      border-bottom: 1px solid transparent
-      text-transform: uppercase
-      line-height: 1.77
-      letter-spacing: 0.65px
-  .active
-    a
-      color: #f70000
-      border-color: #f70000
-
-.tab_content.active
-  display: block
-
-.tab_content
-  display: none
 
 .slider-product__nav
   display: flex

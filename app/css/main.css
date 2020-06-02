@@ -374,8 +374,8 @@ header {
       -ms-flex-align: start;
           align-items: flex-start;
   margin: 147px 0 35px;
-  background: url("../img/overlay.png") no-repeat center;
-    background-size: cover; }
+  background: -webkit-gradient(linear, left top, left bottom, from(#8e4f4e), to(rgba(255, 255, 255, 0)));
+  background: linear-gradient(to bottom, #8e4f4e 0%, rgba(255, 255, 255, 0) 100%); }
   .main-box .text {
     margin: 33px 0 60px;
     line-height: 1.44;
@@ -518,7 +518,7 @@ header {
     line-height: 1.65; }
     .about-content .text strong {
       font-weight: bold;
-      color: #f70000;
+      color: #232323;
       margin: 0 0 30px; }
 
 .advantages {
@@ -550,6 +550,9 @@ header {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center; }
+    .advantages-box .icon img {
+      -webkit-filter: grayscale(100%);
+              filter: grayscale(100%); }
 
 .reviews {
   padding: 49px 0 46px; }
@@ -569,7 +572,7 @@ header {
       -ms-flex-pack: justify;
           justify-content: space-between; }
   .reviews-box .name-user h4 {
-    color: #f70000;
+    color: #232323;
     font-size: 17px;
     font-weight: bold; }
 
@@ -580,7 +583,7 @@ header {
 
 .section-contacts {
   position: relative;
-  padding: 186px 0 160px; }
+  padding: 70px 0; }
   .section-contacts .container {
     position: initial;
     z-index: 0; }
@@ -686,7 +689,7 @@ header {
   font-size: 12px; }
   .address .icon {
     margin: 0 10px 0 0;
-    width: 23px;
+    width: 16px;
     height: 27px; }
 
 footer {
@@ -712,7 +715,7 @@ footer {
       margin: 0; }
 
 .copyright {
-  color: #f70000;
+  color: #232323;
   font-size: 12px; }
 
 .footer-menu {
@@ -855,37 +858,6 @@ footer {
   .packing-box__val p {
     font-size: 20px;
     letter-spacing: 0.22px; }
-
-.tabs {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap; }
-  .tabs li {
-    margin: 0 33px 0 0; }
-    .tabs li:last-child {
-      margin: 0; }
-    .tabs li a {
-      padding: 0 0 25px;
-      color: #232323;
-      font-size: 13px;
-      border-bottom: 1px solid transparent;
-      text-transform: uppercase;
-      line-height: 1.77;
-      letter-spacing: 0.65px; }
-  .tabs .active a {
-    color: #f70000;
-    border-color: #f70000; }
-
-.tab_content.active {
-  display: block; }
-
-.tab_content {
-  display: none; }
 
 .slider-product__nav {
   display: -webkit-box;
