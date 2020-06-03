@@ -377,8 +377,8 @@ header {
       -ms-flex-align: start;
           align-items: flex-start;
   margin: 147px 0 35px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#8e4f4e), to(rgba(188, 154, 153, 0.7)));
-  background: linear-gradient(to bottom, #8e4f4e 0%, rgba(188, 154, 153, 0.7) 100%); }
+  background: -webkit-gradient(linear, left top, left bottom, from(#bc9a99), to(rgba(255, 255, 255, 0)));
+  background: linear-gradient(to bottom, #bc9a99 0%, rgba(255, 255, 255, 0) 100%); }
   .main-box .text {
     margin: 33px 0 60px;
     line-height: 1.44;
