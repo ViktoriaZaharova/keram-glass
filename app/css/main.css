@@ -364,6 +364,7 @@ header {
 
 .main-box {
   width: 662px;
+  min-height: 494px;
   padding: 64px 67px 68px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1043,7 +1044,9 @@ footer {
     footer .container {
       padding: 25px 15px 45px; }
   header .container {
-    padding: 20px 15px; } }
+    padding: 20px 15px; }
+  .main-box {
+    min-height: 400px; } }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 670px) {
@@ -1087,7 +1090,8 @@ footer {
 
 @media only screen and (max-width: 420px) {
   .main-box {
-    width: 100%; }
+    width: 100%;
+    min-height: 480px; }
   .advantages-box {
     max-width: none; }
   .section-contacts {
