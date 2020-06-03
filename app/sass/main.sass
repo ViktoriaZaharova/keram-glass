@@ -158,15 +158,18 @@ header
   position: absolute
   width: 100%
   z-index: 5
-  top: 41px
+  top: 0
   left: 0
+
   .container
     justify-content: space-between
     align-items: center
+    background: #fff
+    padding: 41px 15px 0
   .address
     margin: 0 50px 0 auto
   .logo
-    margin: 0 170px 0 45px
+    margin: 0 170px 0 30px
 
 .company-description
   color: #000000
@@ -208,7 +211,7 @@ header
   display: flex
   align-items: center
   justify-content: space-between
-  padding: 25px 30px
+  padding: 25px 15px
   position: relative
 
 .menu
@@ -294,15 +297,13 @@ header
         color: #f70000
 
 //main
-//main
-//  padding: 27px 32px 0
+
 
 //main-slider
 .main-slider
   width: 100%
   position: relative
   color: #fff
-
   .container
     z-index: 2
 
@@ -318,6 +319,7 @@ header
   top: 50%
   transform: translate(-50%,-50%)
 
+
 .main-box
   width: 662px
   padding: 64px 67px 68px
@@ -325,9 +327,10 @@ header
   flex-direction: column
   align-items: flex-start
   margin: 147px 0 35px
+  //background: #bc9a99
   //background: url("../img/overlay.png") no-repeat center
   //  size: cover
-  background: linear-gradient(to bottom, rgba(142,79,78,1) 0%,rgba(255,255,255,0) 100%)
+  background: linear-gradient(to bottom, rgba(142,79,78,1) 0%,rgba(#bc9a99,.7) 100%)
   .text
     margin: 33px 0 60px
     line-height: 1.44
@@ -386,10 +389,10 @@ header
     border-color: transparent
 
 .category-news
-  color: #656565
+  color: #232323
   text-transform: uppercase
-  font-size: 12px
-  font-weight: 300
+  font-size: 17px
+  font-weight: bold
 
 .news-box__title
   font-size: 17px
@@ -707,9 +710,9 @@ footer
       object-fit: cover
   &__title
     color: #222222
-    font-size: 18px
+    font-size: 17px
     font-weight: bold
-    line-height: 2.22
+    line-height: normal
     letter-spacing: 0.2px
   .location
     margin: 10px 0 0
