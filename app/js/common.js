@@ -16,6 +16,16 @@ $('.btn-burger__mobile').click(function () {
    $('.navigation').fadeToggle();
 });
 
+$('.drop-item__links').hover(function (e) {
+    e.preventDefault();
+   $(this).siblings('.drop-menu').fadeToggle();
+});
+
+$('form label input').focus(function () {
+   $(this).siblings('.text-form').hide();
+});
+
+
 $('.product-slider').slick({
     slidesToShow: 4,
     infinite: true,

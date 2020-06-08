@@ -160,16 +160,15 @@ header
   z-index: 5
   top: 0
   left: 0
-
+  padding: 41px 0 0
   .container
     justify-content: space-between
     align-items: center
     background: #fff
-    padding: 41px 15px 0
   .address
     margin: 0 50px 0 auto
   .logo
-    margin: 0 170px 0 30px
+    margin: 0 170px 0 50px
 
 .company-description
   color: #000000
@@ -181,6 +180,7 @@ header
 .header-contacts
   position: relative
   padding: 0 0 0 26px
+  margin: 0 25px 0 0
   .phone
     font-size: 15px
     line-height: 1.2
@@ -201,6 +201,15 @@ header
     font-size: 12px
     line-height: 1.5
     letter-spacing: 0.13px
+
+.main-header
+  padding: 0
+  .container
+    padding: 40px 15px 0
+  .header-contacts
+    margin: 0
+  .logo
+    margin: 0 170px 0 30px
 
 
 //navigation
@@ -232,6 +241,35 @@ header
         color: #f70000
         font-weight: bold
         text-decoration: underline
+
+.drop-item
+  position: relative
+
+.drop-menu
+  position: absolute
+  left: 0
+  top: 100%
+  min-width: 400px
+  max-width: 100%
+  padding: 20px
+  background: #fff
+  z-index: 5
+  display: none
+
+.menu-dropDown
+  display: flex
+  flex-wrap: wrap
+  align-items: center
+  li
+    width: 48%
+    margin: 0 0 10px
+    a
+      text-transform: none
+      font-weight: normal
+      &:hover
+        font-weight: normal
+
+
 
 .btn-burger
   display: flex
@@ -693,7 +731,7 @@ footer
   width: 304px
   height: 436px
   background: #fff
-  padding: 29px 31px 28px
+  padding: 29px 22px 28px
   &__img
     width: 240px
     height: 240px
@@ -702,6 +740,7 @@ footer
     justify-content: center
     overflow: hidden
     border-radius: 50%
+    margin: 0 auto
     img
       width: 100%
       height: 100%
@@ -774,6 +813,289 @@ footer
   display: flex
   align-items: center
   justify-content: space-between
+
+//header
+.header
+  position: relative
+  background: #fff
+  .navigation
+    background-color: #f5f5f5
+
+.breadcrumbs
+  padding: 17px 32px
+  width: 100%
+  display: flex
+  align-items: center
+  flex-wrap: wrap
+  background-color: #ececec
+  margin: 0 0 53px
+  li
+    a
+      letter-spacing: 0.13px
+      font-size: 12px
+      color: #737373
+      margin: 0 20px 0 0
+      &:after
+        content: '>'
+        display: inline-block
+        margin: 0 0 0 20px
+      &:hover
+        color: #f70000
+    span
+      letter-spacing: 0.13px
+      font-size: 12px
+      color: #737373
+
+h1
+  margin: 0 0 24px
+  color: #232323
+  font-size: 30px
+  letter-spacing: 0.33px
+  width: 100%
+  sub
+    font-size: 16px
+    vertical-align: top
+
+.page-text
+  margin: 62px 0 67px
+  color: #232323
+  font-size: 15px
+  letter-spacing: 0.17px
+  p
+    margin: 0 0 30px
+    &:last-child
+      margin: 0
+
+.main-sale
+  margin: 0 0 50px
+
+//main-catalog__wrapper
+.bg-light-blue
+  background: #f6f7fa
+
+.main-catalog__wrapper
+  padding: 37px 0 0
+  margin: 0 0 35px
+  .product-card
+    margin: 0 32px 35px 0
+    &:nth-child(4n+4)
+      margin-right: 0
+  .product-card__title
+    min-height: 50px
+    font-size: 16px
+
+  .container
+    justify-content: flex-start
+    align-items: flex-start
+
+
+
+.packing-box__val-wrap
+  width: 100%
+  display: flex
+  align-items: flex-start
+  justify-content: space-between
+
+
+//main-news
+.main-news
+  .news-box
+    margin: 0 0 30px
+
+.pagination
+  width: 100%
+  display: flex
+  align-items: center
+  justify-content: center
+  margin: 14px auto 100px
+  li
+    margin: 0 10px 0 0
+    &:last-child
+      margin: 0
+    a
+      color: #dbdbdb
+      font-size: 17px
+      text-transform: uppercase
+      font-weight: 700
+    .active
+      color: #f70000
+
+
+//product-wrapper
+.product-wrapper
+  padding: 49px 0
+  .container
+    align-items: flex-start
+    justify-content: space-between
+
+.product-wrapper__title
+  color: #f70000
+  font-size: 30px
+  font-weight: 700
+  letter-spacing: 0.33px
+
+.product-wrapper__img
+  width: 240px
+  height: 240px
+  display: flex
+  align-items: center
+  justify-content: center
+  border-radius: 50%
+  overflow: hidden
+
+.product-wrapper__content
+  width: calc(100% - 240px)
+  padding: 0 0 0 58px
+  .text
+    color: #222222
+    margin: 39px 0 44px
+    letter-spacing: 0.17px
+    font-size: 15px
+
+.product-wrapper__characteristics
+  width: 100%
+  display: flex
+  align-items: flex-start
+  justify-content: flex-start
+  flex-wrap: wrap
+  .box
+    width: auto
+    margin: 0 0 36px
+    display: flex
+    align-items: center
+    color: #222222
+    font-size: 15px
+    letter-spacing: 0.17px
+    padding: 0 39px 0 0
+    .box-icon
+      width: 43px
+      height: 43px
+      display: flex
+      align-items: center
+      justify-content: center
+    .box-text
+      width: calc(100% - 43px)
+      padding: 0 0 0 16px
+    &:last-child
+      width: 100%
+      margin: 0
+    h4
+      color: #f70000
+      font-weight: 700
+      font-size: 15px
+      margin: 0 0 7px
+
+.application
+  padding: 43px 0
+
+.application-box
+  margin: 0 0 0 308px
+  display: flex
+  flex-direction: column
+  align-items: flex-start
+  font-size: 15px
+  letter-spacing: 0.17px
+  h4
+    font-weight: 700
+    color: #f70000
+    margin: 0 0 15px
+  .btn
+    margin: 30px 0 37px
+    width: 220px
+    padding: 14px 0
+  .link
+    color: #222222
+    text-decoration: underline
+    letter-spacing: 0.17px
+    &:hover
+      text-decoration: none
+
+//maps-main
+.maps-main
+  height: 626px
+  width: 100%
+  position: relative
+  margin: 0 0 46px
+
+//main-contacts
+.main-contacts
+  h1
+    margin: 0 0 49px
+
+.main-contacts__wrap
+  width: 100%
+  display: flex
+  align-items: flex-start
+  justify-content: space-between
+  flex-wrap: wrap
+
+.main-contacts__box
+  max-width: 620px
+  width: 100%
+  color: #313131
+  font-size: 15px
+  margin: 0 0 50px
+  .company-name
+    color: #f70000
+    margin: 0 0 33px
+  p
+    margin: 0 0 17px
+  .address
+    font-size: 15px
+    p
+      margin: 0
+  .phone
+    margin: 21px 0
+
+form
+  display: flex
+  align-items: flex-start
+  justify-content: space-between
+  flex-wrap: wrap
+  label
+    position: relative
+    margin: 0 0 16px
+    width: 304px
+    &:last-child
+      width: 468px
+  .btn
+    border-radius: 0
+    transition: .3s ease
+    width: 126px
+    height: 40px
+    padding: 0
+    cursor: pointer
+    border: none
+
+label
+  display: block
+
+input
+  width: 100%
+  box-sizing: border-box
+  padding: 0 17px
+  border: 1px solid #dddddd
+    radius: 0
+  font-family: $default-font
+  outline: none
+  height: 40px
+  background: #fff
+  &:hover, &:focus
+    outline: none
+    box-shadow: none
+
+.text-form
+  position: absolute
+  left: 17px
+  top: 50%
+  transform: translate(0,-50%)
+  color: #b2b2b2
+  font-size: 13px
+  sub
+    color: #f70000
+    vertical-align: top
+    font-size: 10px
+
 
 
 

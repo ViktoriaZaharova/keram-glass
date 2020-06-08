@@ -8,22 +8,50 @@
     max-width: none
     padding: 0 15px
 
-  header .container
-    padding: 40px 15px 0
+  header
+    padding: 40px 0 0
 
-@media only screen and (max-width : 1290px)
+@media only screen and (max-width : 1350px)
+  .main-catalog__wrapper .product-card
+    margin: 0 18px 20px 0
+
+@media only screen and (max-width : 1300px)
   .news-box
     max-width: 33%
 
   .advantages-box
     margin: 0 0 20px
 
+  .main-catalog__wrapper
+    .container
+      justify-content: space-around
+    .product-card
+      margin: 0 0 20px
+
+  .main-contacts__box
+    max-width: 49%
+
+  form label
+    width: 270px
+
 @media only screen and (max-width : 1200px)
   main
     padding: 0
 
+  .main-header .logo
+    margin: 0 auto 0 0
+
   header .logo
     margin: 0 auto 0 0
+
+  .header-contacts
+    margin: 0
+
+  form label
+    width: 300px
+
+  .main-contacts__box
+    max-width: none
 
 
 /* Medium Devices, Desktops */
@@ -58,6 +86,12 @@
   .advantages-box
     max-width: 49%
 
+  .drop-menu
+    min-width: 330px
+
+  form label
+    width: 30%
+
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 820px)
@@ -66,6 +100,8 @@
 
   .news-box
     padding: 30px
+
+
 
 @media only screen and (max-width : 768px)
   .navigation
@@ -130,12 +166,27 @@
     .container
       padding: 25px 15px 45px
 
-  header
-    .container
-      padding: 20px 15px
+  .main-header .container
+    padding: 20px 15px 10px
 
   .main-box
     min-height: 400px
+
+  .header-contacts
+    margin: 0
+
+  header
+    padding: 20px 0 10px
+
+  .product-wrapper__content
+    width: 100%
+    padding: 0
+
+  .product-wrapper__img
+    margin: 0 auto 30px
+
+  .application-box
+    margin: 0
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 670px)
@@ -143,14 +194,30 @@
     flex-direction: column
     align-items: center
     li
+      width: 100%
       margin: 0 0 10px
+      a
+        text-align: center
 
+  .drop-menu
+    min-width: auto
+    position: relative
+    
+  .menu-dropDown
+    li
+      a
+        padding: 0 5px
+        text-align: left
+    
 
-
+  form label
+    width: 48%
 
 @media only screen and (max-width : 610px)
   header .address
     display: none
+
+
 
 @media only screen and (max-width : 510px)
   .products
@@ -175,6 +242,36 @@
 
   h2
     font-size: 26px
+
+  h1
+    font-size: 26px
+
+  .product-wrapper__title
+    font-size: 24px
+
+  .product-wrapper__content .text
+    margin: 20px 0
+
+  .breadcrumbs
+    margin: 0 0 30px
+
+  .page-text
+    margin: 30px 0
+
+  form
+    label
+      width: 100%
+    button
+      margin: 0 auto
+
+  .main-contacts__box
+    margin: 0 0 30px
+
+  .main-contacts h1
+    margin: 0 0 30px
+
+  .maps-main
+    height: 300px
 
 
 @media only screen and (max-width : 420px)
@@ -216,3 +313,9 @@
     padding: 0
     &:before
       display: none
+
+  .menu-dropDown
+    li
+      width: 100%
+      a
+        padding: 0
