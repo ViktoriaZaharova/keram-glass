@@ -8,7 +8,8 @@ $('.main-slider').slick({
 });
 
 
-$('.btn-burger').click(function () {
+$('.btn-burger').click(function (e) {
+    e.preventDefault();
    $('.dropDown-menu').fadeToggle();
 });
 
@@ -16,10 +17,10 @@ $('.btn-burger__mobile').click(function () {
    $('.navigation').fadeToggle();
 });
 
-$('.drop-item__links').hover(function (e) {
-    e.preventDefault();
-   $(this).siblings('.drop-menu').fadeToggle();
-});
+// $('.drop-item__links').hover(function (e) {
+//     e.preventDefault();
+//    $(this).siblings('.drop-menu').fadeToggle();
+// });
 
 $('form label input').focus(function () {
    $(this).siblings('.text-form').hide();
