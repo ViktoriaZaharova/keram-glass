@@ -27,91 +27,164 @@
 
 <body>
 
-<header>
-    <div class="container">
-        <a href="index.html" class="logo"><img src="img/logo.png" alt=""></a>
+<div class="wrapper">
+    <div class="content">
+        <header>
+            <div class="container">
+                <a href="index.html" class="logo"><img src="img/logo.png" alt=""></a>
 
-        <div class="navigation">
+                <div class="navigation">
 
-            <ul class="menu">
+                    <ul class="menu">
+                        <li><a href="index.html">Главная</a></li>
+                        <li class="drop-item">
+                            <a href="#" class="drop-item__links">Продукция</a>
+                            <div class="drop-menu">
+                                <ul class="menu-dropDown">
+                                    <li><a href="#">Хромитовый песок</a></li>
+                                    <li><a href="#">Плавиковый шпат</a></li>
+                                    <li><a href="#">Ильменит кусковой</a></li>
+                                    <li><a href="#">Оливиновый песок</a></li>
+                                    <li><a href="#">Стартовая смесь</a></li>
+                                    <li><a href="#">Гранатовый песок</a></li>
+                                    <li><a href="#">Рутиловый концентрат</a></li>
+                                    <li><a href="#">Теплоизолирующая
+                                        смесь Изом</a></li>
+                                    <li><a href="#">Волластонит</a></li>
+                                    <li><a href="#">Боксит</a></li>
+                                    <li><a href="#">Андалузит</a></li>
+                                    <li><a href="#">Хромитовый концентрат</a></li>
+                                    <li><a href="#">Ставролит</a></li>
+                                    <li><a href="#">Цирконовый песок</a></li>
+                                    <li><a href="#">Цирконовый концентрат</a></li>
+                                    <li><a href="#">Концентрат ильменитовый</a></li>
+                                    <li><a href="#">Концентрат Дистен-
+                                        Силлиманитовый порошок</a></li>
+                                    <li><a href="#">Концентрат Дистен-
+                                        Силлиманитовый зернистый</a></li>
+                                    <li><a href="#">Диоксид марганца /
+                                        Пиролюзит</a></li>
+                                    <li><a href="#">Хромитовый песок</a></li>
+                                    <li><a href="#">Хромитовый песок</a></li>
+                                    <li><a href="#">Хромитовый песок</a></li>
+                                    <li><a href="#">Хромитовый песок</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="drop-item"><a href="#" class="drop-item__links">Компания</a>
+                            <div class="drop-menu">
+                                <ul class="menu-dropDown">
+                                    <li class="w-100"><a href="#">О компании</a></li>
+                                    <li class="w-100"><a href="#">Отзывы</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="#">новости</a></li>
+                        <li><a href="#">контакты</a></li>
+                    </ul>
+
+                </div>
+
+                <div class="header-contacts">
+                    <a href="tel:+74722240010" class="phone">+7 (4722) <strong>24-00-10</strong></a>
+                    <a href="#" class="links-accent">
+                        Отправить запрос</a>
+                </div>
+
+
+
+                <div class="btn-burger__mobile"><img src="img/burger.png" alt=""></div>
+            </div>
+        </header>
+
+        <main class="main main-contacts">
+            <div class="container">
+                <ul class="breadcrumbs">
+                    <li><a href="#">Главная</a></li>
+                    <li><span>Наши контакты</span></li>
+                </ul>
+
+                <h1>Наши контакты</h1>
+
+
+                <div class="main-contacts__wrap">
+                    <div class="main-contacts__box">
+                        <div class="company-name">Общество с ограниченной ответственностью «Керамглас»</div>
+                        <div class="address">
+                            <div class="icon"><img src="img/location.png" alt=""></div>
+                            <p>308012, Российская федерация, г. Белгород, пер. Харьковский, 36-Д, <br>помещение 402</p>
+                        </div>
+                        <a href="tel:+74722240010" class="phone">
+                            <span class="icon"><img src="img/smartphone.png" alt=""></span>
+                            <span class="code">+7 (4722)</span> <strong> 24-00-10</strong></a>
+
+                        <a href="mailto:info@keramglass.ru" class="mail">
+                            <span class="icon"><img src="img/mail.png" alt=""></span>
+                            info@keramglass.ru</a>
+                    </div>
+
+                    <div class="main-contacts__box">
+                        <p>Приходите к нам в офис, мы подготовим для вас индивидуальное предложение
+                            и расскажем о всех подробностях.</p>
+
+                        <p>Заполните форму ниже, и мы свяжемся с вами для обсуждения деталей встречи!</p>
+
+                        <form method="post" class="form">
+                            <label>
+                                <input type="text" name="name">
+                                <span class="text-form">Ваше имя: <sub>*</sub></span>
+                            </label>
+                            <label>
+                                <input type="text" name="phone" required>
+                                <span class="text-form">Телефон: <sub>*</sub></span>
+                            </label>
+                            <label>
+                                <input type="text" name="product" required>
+                                <span class="text-form">Интересующий товар: <sub>*</sub></span>
+                            </label>
+                            <button type="submit" class="btn btn-accent">Отправить запрос</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
+        </main>
+
+        <div class="maps maps-main">
+            <iframe src="https://yandex.ru/map-widget/v1/-/CCQGJOC12C"></iframe>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+
+            <div class="footer-box">
+                <a href="index.html" class="logo"><img src="img/logo.png" alt=""></a>
+                <div class="copyright">© 2020 <strong>ООО «Керамглас»</strong>. Все права защищены</div>
+            </div>
+
+            <ul class="footer-menu">
                 <li><a href="index.html">Главная</a></li>
-                <li class="drop-item">
-                    <a href="#" class="drop-item__links">Продукция</a>
-                    <div class="drop-menu">
-                        <ul class="menu-dropDown">
-                            <li><a href="#">Хромитовый песок</a></li>
-                            <li><a href="#">Плавиковый шпат</a></li>
-                            <li><a href="#">Ильменит кусковой</a></li>
-                            <li><a href="#">Оливиновый песок</a></li>
-                            <li><a href="#">Стартовая смесь</a></li>
-                            <li><a href="#">Гранатовый песок</a></li>
-                            <li><a href="#">Рутиловый концентрат</a></li>
-                            <li><a href="#">Теплоизолирующая
-                                смесь Изом</a></li>
-                            <li><a href="#">Волластонит</a></li>
-                            <li><a href="#">Боксит</a></li>
-                            <li><a href="#">Андалузит</a></li>
-                            <li><a href="#">Хромитовый концентрат</a></li>
-                            <li><a href="#">Ставролит</a></li>
-                            <li><a href="#">Цирконовый песок</a></li>
-                            <li><a href="#">Цирконовый концентрат</a></li>
-                            <li><a href="#">Концентрат ильменитовый</a></li>
-                            <li><a href="#">Концентрат Дистен-
-                                Силлиманитовый порошок</a></li>
-                            <li><a href="#">Концентрат Дистен-
-                                Силлиманитовый зернистый</a></li>
-                            <li><a href="#">Диоксид марганца /
-                                Пиролюзит</a></li>
-                            <li><a href="#">Хромитовый песок</a></li>
-                            <li><a href="#">Хромитовый песок</a></li>
-                            <li><a href="#">Хромитовый песок</a></li>
-                            <li><a href="#">Хромитовый песок</a></li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="drop-item"><a href="#" class="drop-item__links">Компания</a>
-                    <div class="drop-menu">
-                        <ul class="menu-dropDown">
-                            <li class="w-100"><a href="#">О компании</a></li>
-                            <li class="w-100"><a href="#">Отзывы</a></li>
-                        </ul>
-                    </div>
-                </li>
+                <li><a href="#">Продукция</a></li>
                 <li><a href="#">новости</a></li>
                 <li><a href="#">контакты</a></li>
             </ul>
 
-        </div>
-
-        <div class="header-contacts">
-            <a href="tel:+74722240010" class="phone">+7 (4722) <strong>24-00-10</strong></a>
-            <a href="#" class="links-accent">
-                Отправить запрос</a>
-        </div>
-
-
-
-        <div class="btn-burger__mobile"><img src="img/burger.png" alt=""></div>
-    </div>
-</header>
-
-<main class="main main-contacts">
-    <div class="container">
-        <ul class="breadcrumbs">
-            <li><a href="#">Главная</a></li>
-            <li><span>Наши контакты</span></li>
-        </ul>
-
-        <h1>Наши контакты</h1>
-
-
-        <div class="main-contacts__wrap">
-            <div class="main-contacts__box">
-                <div class="company-name">Общество с ограниченной ответственностью «Керамглас»</div>
+            <ul class="list-social">
+                <li class="vk"><a href="#"></a></li>
+                <li class="facebook"><a href="#"></a></li>
+                <li class="instagram"><a href="#"></a></li>
+                <li class="telegram"><a href="#"></a></li>
+                <li class="odn"><a href="#"></a></li>
+            </ul>
+            <div class="footer-box">
                 <div class="address">
-                    <div class="icon"><img src="img/location.png" alt=""></div>
-                    <p>308012, Российская федерация, г. Белгород, пер. Харьковский, 36-Д, <br>помещение 402</p>
+                    <div class="icon"><img src="img/geo.png" alt=""></div>
+                    <p>г. Белгород, <br>
+                        пер. Харьковский, 36-Д, <br>помещение 402</p>
                 </div>
+
                 <a href="tel:+74722240010" class="phone">
                     <span class="icon"><img src="img/smartphone.png" alt=""></span>
                     <span class="code">+7 (4722)</span> <strong> 24-00-10</strong></a>
@@ -120,78 +193,10 @@
                     <span class="icon"><img src="img/mail.png" alt=""></span>
                     info@keramglass.ru</a>
             </div>
-
-            <div class="main-contacts__box">
-                <p>Приходите к нам в офис, мы подготовим для вас индивидуальное предложение
-                    и расскажем о всех подробностях.</p>
-
-                <p>Заполните форму ниже, и мы свяжемся с вами для обсуждения деталей встречи!</p>
-
-                <form method="post" class="form">
-                    <label>
-                        <input type="text" name="name">
-                        <span class="text-form">Ваше имя: <sub>*</sub></span>
-                    </label>
-                    <label>
-                        <input type="text" name="phone" required>
-                        <span class="text-form">Телефон: <sub>*</sub></span>
-                    </label>
-                    <label>
-                        <input type="text" name="product" required>
-                        <span class="text-form">Интересующий товар: <sub>*</sub></span>
-                    </label>
-                    <button type="submit" class="btn btn-accent">Отправить запрос</button>
-                </form>
-            </div>
         </div>
-    </div>
-
-
-</main>
-
-<div class="maps maps-main">
-    <iframe src="https://yandex.ru/map-widget/v1/-/CCQGJOC12C"></iframe>
+    </footer>
 </div>
 
-<footer>
-    <div class="container">
-
-        <div class="footer-box">
-            <a href="index.html" class="logo"><img src="img/logo.png" alt=""></a>
-            <div class="copyright">© 2020 <strong>ООО «Керамглас»</strong>. Все права защищены</div>
-        </div>
-
-        <ul class="footer-menu">
-            <li><a href="index.html">Главная</a></li>
-            <li><a href="#">Продукция</a></li>
-            <li><a href="#">новости</a></li>
-            <li><a href="#">контакты</a></li>
-        </ul>
-
-        <ul class="list-social">
-            <li class="vk"><a href="#"></a></li>
-            <li class="facebook"><a href="#"></a></li>
-            <li class="instagram"><a href="#"></a></li>
-            <li class="telegram"><a href="#"></a></li>
-            <li class="odn"><a href="#"></a></li>
-        </ul>
-        <div class="footer-box">
-            <div class="address">
-                <div class="icon"><img src="img/geo.png" alt=""></div>
-                <p>г. Белгород, <br>
-                    пер. Харьковский, 36-Д, <br>помещение 402</p>
-            </div>
-
-            <a href="tel:+74722240010" class="phone">
-                <span class="icon"><img src="img/smartphone.png" alt=""></span>
-                <span class="code">+7 (4722)</span> <strong> 24-00-10</strong></a>
-
-            <a href="mailto:info@keramglass.ru" class="mail">
-                <span class="icon"><img src="img/mail.png" alt=""></span>
-                info@keramglass.ru</a>
-        </div>
-    </div>
-</footer>
 
 
 <script src="js/jquery.min.js"></script>
